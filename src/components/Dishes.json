@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Biryani",
+        "image_url": "./Assets/cuisine-1.png",
+        "price": 400
+    },
+    {
+        "id": 2,
+        "name": "Veg Platter",
+        "image_url": "./Assets/cuisine-2.png",
+        "price": 300
+    },
+    {
+        "id": 3,
+        "name": "Paneer Dosa",
+        "image_url": "./Assets/cuisine-3.png",
+        "price": 150
+    },
+    {
+        "id": 4,
+        "name": "Chicken Curry",
+        "image_url": "./Assets/cuisine-4.png",
+        "price": 200
+    },
+    {
+        "id": 5,
+        "name": "Plain Dosa",
+        "image_url": "./Assets/cuisine-5.png",
+        "price": 150
+    },
+    {
+        "id": 6,
+        "name": "Vegetable Curry",
+        "image_url": "./Assets/cuisine-6.png",
+        "price": 100
+    },
+    {
+        "id": 7,
+        "name": "Non-veg Platter",
+        "image_url": "./Assets/cuisine-7.png",
+        "price": 250
+    },
+    {
+        "id": 8,
+        "name": "Kadhai Paneer",
+        "image_url": "./Assets/cuisine-8.png",
+        "price": 200
+    },
+    {
+        "id": 9,
+        "name": "Pulav",
+        "image_url": "./Assets/cuisine-9.png",
+        "price": 150
+    },
+    {
+        "id": 10,
+        "name": "Shrimp Curry",
+        "image_url": "./Assets/cuisine-10.png",
+        "price": 300
+    },
+    {
+        "id": 11,
+        "name": "Dal",
+        "image_url": "./Assets/cuisine-11.png",
+        "price": 100
+    },
+    {
+        "id": 12,
+        "name": "Chole",
+        "image_url": "./Assets/cuisine-12.png",
+        "price": 150
+    },
+    {
+        "id": 13,
+        "name": "Mutton",
+        "image_url": "./Assets/cuisine-13.png",
+        "price": 400
+    },
+    {
+        "id": 14,
+        "name": "Gulab Jamun",
+        "image_url": "./Assets/cuisine-14.png",
+        "price": 250
+    },
+    {
+        "id": 15,
+        "name": "Pakora",
+        "image_url": "./Assets/cuisine-15.png",
+        "price": 100
+    }
+]

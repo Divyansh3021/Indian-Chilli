@@ -1,0 +1,138 @@
+#chef-choice{
+    font-size: 3vh;
+    font-weight: bold;
+    width: fit-content;
+    /* padding-bottom: 0.5vh; */
+    /* margin-left: 2vh; */
+    border-bottom: 2px solid black;
+}
+
+.dish{
+    width: 12vw;
+    transition: all 0.5s;
+    height: 12vw;
+    /* background-color: aquamarine; */
+    /* display: flex; */
+}
+
+/* .dish + h2{
+    margin-bottom: 1vh;
+} */
+
+.dish:hover{
+    transform: rotate(165deg);
+}
+/* 
+.dish:hover + h2{
+    border-bottom: 2px black solid;
+} */
+
+.dish-env{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(237, 217, 255); */
+    border-radius: 70px;
+    margin-right: 6vh;
+    transition: all 0.5s;
+    margin-bottom: 3vh;
+}
+
+@keyframes expand-height {
+    from{
+        height: auto;
+    }
+    to{
+        height: 50vh;
+    }
+}
+
+
+#dish-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 60vw;
+    /* justify-content: space-around; */
+    margin-top: 4vh;
+}
+
+#dishes{
+    margin: 7vh auto 5vh 0vh;
+    display: flex;
+    font-family: Poppins;
+    flex-direction: column;
+}
+
+#except-hero{
+    width: 64vw;
+    float: left;
+}
+
+#hero{
+    width: 60vw;
+    float: left;
+    margin-top: 6vh;
+    margin-left: 8vh;
+}
+#hero-photo{
+    width: 36vw;
+    height: 100vh;
+    float: right;
+    position:fixed
+}
+
+#tagline{
+    /* margin-left: 8vh; */
+    /* margin-top: 6vh; */
+    align-items: flex-start;
+    display: flex;
+    height: 25vh;
+    overflow: hidden;
+    /* align-items: center; */
+    /* justify-content:space-around; */
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+#tagline-1{
+    /* margin-top: 4vh; */
+    /* margin-left: 8vh; */
+    font-size: 9vh;
+    font-weight:bold;
+    float: left;
+    font-family: Poppins;
+    color: rgb(241, 63, 9);
+}
+
+#tagline-2{
+    /* background-color: aqua; */
+    /* margin-top: 4vh; */
+    /* margin-left: 8vh; */
+    font-size: 8vh;
+    font-weight:bold;
+    margin-top: -1vh;
+    float: left;
+    font-family: Poppins;
+    /* color: rgb(241, 63, 9); */
+}
+
+#tagline-sen{
+    font-size: medium;
+    margin-top: 1vh;
+    font-weight: 400;
+    width: 40vw;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    font-family: Roboto;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(23, 23, 23);
+    border-radius: 0px;
+}

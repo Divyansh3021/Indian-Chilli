@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#chilli{
+    color: rgb(241, 63, 9);
+    margin-left: 0.3vw;
+}
+
+#indian{
+    color: green;
+}
+#nav-body{
+    display: flex;
+    height: 10vh;
+    width: 65vw;
+    float: left;
+    flex-direction: row;
+    /* background-color: rgb(255, 243, 226); */
+    align-items: center;
+}
+
+.option{
+    /* font: bold; */
+    font-weight: 500;
+    cursor: pointer !important;
+    /* background-color: brown; */
+}
+
+.option:hover{
+    cursor: pointer;
+}
+
+#options{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5vw;
+    font-size: larger;
+}
+
+#title-box{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}

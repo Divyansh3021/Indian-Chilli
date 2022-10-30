@@ -1,0 +1,22 @@
+[
+    {
+        "visit":1,
+        "dishes":[{"dish":"It's your first visit, you will get free dishes from next time."}]
+    },
+    {
+        "visit": 2,
+        "dishes": [
+            {"dish":"Shahi Paneer"},
+            {"dish":"Dal Makhni"},
+            {"dish": "Baingan Bhaja"}
+        ]
+    },
+    {
+        "visit": 5,
+        "dishes": [{"dish":"Chicken Biryani"},{"dish":"Veg Platter"},{"dish": "Non-veg Platter"}]
+    },
+    {
+        "visit": 7,
+        "dishes": [{"dish":"Veg Combo"},{"dish":"Kadhai Paneer"}, {"dish":"Non-veg Combo"}]
+    }
+]
