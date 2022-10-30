@@ -9,11 +9,11 @@ function RedeemCards() {
             scheme && scheme.map( times => {
                 return(
                     <div className="redeem-card" key={times.visit}>
-                        <h2>{times.visit}</h2>
+                        <h2>Visit: {times.visit}</h2>
                         {times.dishes && times.dishes.map(dish => {
                             return(
                                 <div className="redeem-dish" style={{background: "url("+dish.url+")" , backgroundSize: "cover", }}>
-                                    <h2>{dish.dish}</h2>
+                                    <h2 className='dish-name'>{dish.dish}</h2>
                                     <div className="redeem">Redeem</div>
                                 </div>
                             )
