@@ -1,13 +1,66 @@
+.redeem{
+    width: 50%;
+    height: 4vh;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 0.7vh;
+    margin-top: 18vh;
+}
+
 .redeem-box{
-    display: none;
+    /* display: none; */
     width: 50vw;
-    /* display: flex; */
+    min-height: 40vh;
+    display: flex;
     flex-wrap: wrap;
-    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgb(37, 34, 34); */
     border-radius: 5px;
     margin: auto;
 }
 
-.dflex{
+/* .dflex{
     display: flex !important;
+} */
+
+.redeem-card{
+    display: flex;
+    width: 90%;
+    height: 40vh;
+    /* border: 1px solid black; */
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2vh;
+    flex-direction: row;
+    /* background: url("../Assets/order-background/2395263_13783.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 80%; */
+    /* border-radius: 50px; */
+    /* background: #e0e0e0; */
+    /* box-shadow: inset 20px -20px 60px #bebebe,
+    inset -20px 20px 60px #ffffff; */
+}
+
+.redeem-dish{
+    width: 100%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background: url('https://static.toiimg.com/thumb/53097626.cms?width=1200&height=900'); */
+    justify-content: center;
+    background-size: contain;
+/* background: #e0e0e0; */
+    box-shadow: inset 20px -20px 60px #bebebe,
+                /* inset -20px 20px 60px #ffffff; */
+    /* border: 1px solid black; */
 }

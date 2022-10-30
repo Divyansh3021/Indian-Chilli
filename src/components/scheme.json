@@ -1,22 +1,22 @@
 [
     {
         "visit":1,
-        "dishes":[{"dish":"It's your first visit, you will get free dishes from next time."}]
+        "dishes":[{"dish":"It's your first visit, you will get free dishes from next time.", "url":"https://static.toiimg.com/thumb/53097626.cms?width=1200&height=900"}]
     },
     {
         "visit": 2,
         "dishes": [
-            {"dish":"Shahi Paneer"},
-            {"dish":"Dal Makhni"},
-            {"dish": "Baingan Bhaja"}
+            {"dish":"Shahi Paneer", "url":"https://static.toiimg.com/thumb/52446409.cms?width=1200&height=900"},
+            {"dish":"Dal Makhni", "url":"https://static.toiimg.com/thumb/53097626.cms?width=1200&height=900"},
+            {"dish": "Baingan Bhaja", "url":"http://www.flavorsofmumbai.com/wp-content/uploads/2016/06/Begun-Bhaja-or-Baingan-Bhaja14.jpg"}
         ]
     },
     {
         "visit": 5,
-        "dishes": [{"dish":"Chicken Biryani"},{"dish":"Veg Platter"},{"dish": "Non-veg Platter"}]
+        "dishes": [{"dish":"Chicken Biryani","url":"https://butteroverbae.com/wp-content/uploads/2020/10/karachi-chicken-biryani-11-735x735.jpg"},{"dish":"Veg Platter","url":"https://5.imimg.com/data5/JO/SX/GLADMIN-17925124/veg-platter-500x500.png"},{"dish": "Non-veg Platter", "url":"https://www.crazymasalafood.com/wp-content/images/Capture-60.png"}]
     },
     {
         "visit": 7,
-        "dishes": [{"dish":"Veg Combo"},{"dish":"Kadhai Paneer"}, {"dish":"Non-veg Combo"}]
+        "dishes": [{"dish":"Veg Combo", "url":"https://5.imimg.com/data5/ANDROID/Default/2021/6/HG/PE/OB/29996525/b503b933dc0ac0898d5b53eb9242b0bc-jpg-500x500.jpg"},{"dish":"Kadhai Paneer", "url":"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/kadai-paneer-recipe.jpg"}, {"dish":"Non-veg Combo","url":"https://3.imimg.com/data3/PX/PH/MY-12469549/non-veg-combo-meal-500x500.png"}]
     }
 ]
