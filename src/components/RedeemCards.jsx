@@ -12,7 +12,7 @@ function RedeemCards() {
                         <h2>Visit: {times.visit}</h2>
                         {times.dishes && times.dishes.map(dish => {
                             return(
-                                <div className="redeem-dish" style={{background: "url("+dish.url+")" , backgroundSize: "cover", }}>
+                                <div className="redeem-dish" key={dish.url} style={{background: "url("+dish.url+")" , backgroundSize: "cover", }}>
                                     <h2 className='dish-name'>{dish.dish}</h2>
                                     <div className="redeem">Redeem</div>
                                 </div>

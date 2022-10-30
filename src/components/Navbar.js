@@ -38,12 +38,12 @@ function Navbar(props) {
         </div>
 
         <div id="options">
-            <div className="option">Home</div>
+            <div className="option"><div>Home</div><div className="border"></div></div>
             <div className="option">About</div>
             <div className="option">Safety & Hygiene</div>
             <div className="option">Contact</div>
-            <Login email = {props.email}/>
         </div>
+            <Login email = {props.email}/>
     </div>
   )
 }
