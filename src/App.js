@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element = {<Home  modeController = {toggleMode} mode = {mode}/>}/>
-          <Route path='/loggedin'element={<Home modeController = {toggleMode} mode = {mode}/>} />
+          <Route path='/data'element={<Home modeController = {toggleMode} mode = {mode}/>} />
         </Routes>
       </Router>
     </div>

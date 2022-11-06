@@ -77,4 +77,10 @@ box-shadow:  -20px 20px 60px #bebebe,
     flex-direction: column;
     width: 30vw;
     align-items: center;
+    /* filter: grayscale(1); */
 }
+
+.empty-div{
+    display: none;
+}
+

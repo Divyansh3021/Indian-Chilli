@@ -7,7 +7,7 @@ function Login(props){
 
     const onSuccess = (res) => {
         // console.log("Login Success!! Current User: ", res.profileObj);
-        process.env.REACT_APP_email = res.profileObj.email;
+        // process.env.REACT_APP_email = res.profileObj.email;
         // console.log(res.profileObj.email);
 
 

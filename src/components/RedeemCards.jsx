@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import scheme from"./scheme.json"
 import "./CSS/redeem.css"
+import { data } from 'autoprefixer';
 
 function RedeemCards() {
+
+    
+
   return (
     <div className='redeem-box'>
         {
